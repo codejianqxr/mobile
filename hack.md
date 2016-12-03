@@ -26,27 +26,25 @@
         -webkit-appearance: none;
 
 6. 移动端字体
-* ios系统  
-    * 默认中文字体是Heiti SC   
-    * 默认英文字体是Helvetica   
-    * 默认数字字体是HelveticaNeue   
-    * 无微软雅黑字体   
-* android 系统
-    * 默认中文字体是Droidsansfallback  
-    * 默认英文和数字字体是Droid Sans  
-    * 无微软雅黑字体  
-* winphone 系统
-    * 默认中文字体是Dengxian(方正等线体)  
-    * 默认英文和数字字体是Segoe  
-    * 无微软雅黑字体   
-    
-**结论**
-* 各个手机系统有自己的默认字体，且都不支持微软雅黑
-* 如无特殊需求，手机端无需定义中文字体，使用系统默认
-* 英文字体和数字字体可使用 Helvetica ，三种系统都支持
+    * ios系统  
+        * 默认中文字体是Heiti SC   
+        * 默认英文字体是Helvetica   
+        * 默认数字字体是HelveticaNeue   
+        * 无微软雅黑字体   
+    * android 系统
+        * 默认中文字体是Droidsansfallback  
+        * 默认英文和数字字体是Droid Sans  
+        * 无微软雅黑字体  
+    * winphone 系统
+        * 默认中文字体是Dengxian(方正等线体)  
+        * 默认英文和数字字体是Segoe  
+        * 无微软雅黑字体     
+    * 结论  
+        * 各个手机系统有自己的默认字体，且都不支持微软雅黑  
+        * 如无特殊需求，手机端无需定义中文字体，使用系统默认  
+        * 英文字体和数字字体可使用 Helvetica ，三种系统都支持  
            
         body{font-family:Helvetica;}
-                      
 7. 禁止用户设置字体大小
 
         -webkit-text-size-adjust:100%  
@@ -61,5 +59,4 @@
         p{max-height:9999999px}      
                   
 10. 固定定位问题 
-                  
-11.                   
+                   
