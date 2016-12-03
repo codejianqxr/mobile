@@ -42,10 +42,10 @@
     * 结论  
         * 各个手机系统有自己的默认字体，且都不支持微软雅黑  
         * 如无特殊需求，手机端无需定义中文字体，使用系统默认  
-        * 英文字体和数字字体可使用 Helvetica ，三种系统都支持  
-
-        body{font-family:Helvetica;}
+        * 英文字体和数字字体可使用 Helvetica ，三种系统都支持    
         
+                body{font-family:Helvetica;}
+
 7. 禁止用户设置字体大小
 
         -webkit-text-size-adjust:100%  
