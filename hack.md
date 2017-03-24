@@ -60,4 +60,9 @@
         p{max-height:9999999px}      
                   
 10. 固定定位问题 
+
+11. 调用原生滚动事件
+
+        -webkit-overflow-scrolling:touch    
+
                    

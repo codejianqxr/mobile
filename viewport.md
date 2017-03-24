@@ -20,7 +20,7 @@
 `一般来说我们会将理想视口,设置为我们屏幕的大小,这样更符合用户的使用习惯和视觉习惯`   
 `但是移动设备的屏幕千差万别,我们会通过html5给我提供的meta标签来进行设置`  
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1">     
 
 1. width=<int>| device-width 设置布局视口的宽度     
 2. initial-scale=<num>  页面的初始缩放值        
